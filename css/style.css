@@ -435,6 +435,25 @@ footer h2 {
     text-align: center;
 }
 
+.footer-col-2 p:nth-child(3) {
+    margin: 38px 0px 18px 0px;
+    font-size: 20px;
+}
+
+.footer-col-2 strong {
+    color: #FFA728;
+}
+
+.footer-col-2 input {
+    font-size: 15px;
+}
+
+
+#thank_you_text {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
 .footer-col-2 img{
     width: 180px;
     margin-bottom: 20px;
