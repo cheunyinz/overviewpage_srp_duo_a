@@ -75,10 +75,10 @@ header h1 {
     color: #FFA728;
     font-weight: bold;
     font-size: 68px;
-    width:700px;
+    width: 700px;
 }
 
-header section p:first-of-type{
+header section p:first-of-type {
     color: white;
     font-size: 38px;
     margin: 30px auto 180px auto;
@@ -128,7 +128,7 @@ main h3 {
     font-weight: 100;
 }
 
-.small-container{
+.small-container {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -140,14 +140,14 @@ main h3 {
     max-width: 1300px;
 }
 
-.col-4{
+.col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
 }
 
-.col-4 img{
+.col-4 img {
     width: 100%;
     cursor: pointer;
 }
@@ -155,4 +155,46 @@ main h3 {
 .rating {
     text-align: center;
     color: #FFA728;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container2 {
+    max-width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.testimonial {
+    padding-top: 100px;
+
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0, 5s;
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3 {
+    transform: translateY(-10px);
+
 }
