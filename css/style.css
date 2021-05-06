@@ -15,6 +15,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 999;
 }
 
 nav div {
@@ -226,6 +227,7 @@ transform: translateY(-10px);
     font-size: 16px;
 }
 
+<<<<<<< HEAD
 .exclusive-article{
     background: #FFE7C5;
     padding: 58px 0px 58px 0px;
@@ -278,4 +280,22 @@ transform: translateY(-10px);
     padding: 18px 48px 18px 48px;
     color: white;
     cursor: pointer;
+=======
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+>>>>>>> 462f960bc20df42928def70b3456c3c96f7c25d6
 }
