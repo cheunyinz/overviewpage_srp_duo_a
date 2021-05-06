@@ -76,10 +76,10 @@ header h1 {
     color: #ffa700;
     font-weight: bold;
     font-size: 68px;
-    width:700px;
+    width: 700px;
 }
 
-header section p:first-of-type{
+header section p:first-of-type {
     color: white;
     font-size: 38px;
     margin: 30px auto 180px auto;
@@ -129,7 +129,7 @@ main h3 {
     font-weight: 100;
 }
 
-.small-container{
+.small-container {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -141,14 +141,14 @@ main h3 {
     max-width: 1300px;
 }
 
-.col-4{
+.col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
 }
 
-.col-4 img{
+.col-4 img {
     width: 100%;
     cursor: pointer;
 }
@@ -158,14 +158,14 @@ main h3 {
     color: #FFA728;
 }
 
-.col-3{
+.col-3 {
     flex-basis: 30%;
     min-width: 350px;
     max-width: 380px;
     margin-bottom: 30px;
 }
 
-.col-3 img{
+.col-3 img {
     width: 100%;
 }
 
@@ -183,7 +183,7 @@ main h3 {
 
 .testimonial {
     padding-top: 100px;
-    
+
 }
 
 .testimonial h2:first-child {
@@ -196,39 +196,38 @@ main h3 {
     margin: auto auto 38px auto;
 }
 
-.testimonial .col-3{
+.testimonial .col-3 {
     text-align: center;
     padding: 40px 20px;
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: transform 0,5s;
+    transition: transform 0, 5s;
 }
 
-.testimonial .col-3 img{
+.testimonial .col-3 img {
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
 }
 
-.testimonial .col-3{
-transform: translateY(-10px);
+.testimonial .col-3 {
+    transform: translateY(-10px);
 
 }
 
-.col-3 p{
+.col-3 p {
     font-size: 16px;
     margin: 12px 0;
     color: #777;
 }
 
-.testimonial .col-3 h2{
+.testimonial .col-3 h2 {
     font-weight: 600;
     color: #555;
     font-size: 16px;
 }
 
-<<<<<<< HEAD
-.exclusive-article{
+.exclusive-article {
     background: #FFE7C5;
     padding: 58px 0px 58px 0px;
     margin-top: 28px;
@@ -280,7 +279,8 @@ transform: translateY(-10px);
     padding: 18px 48px 18px 48px;
     color: white;
     cursor: pointer;
-=======
+}
+
 .brands {
     margin: 100px auto;
 }
@@ -295,12 +295,115 @@ transform: translateY(-10px);
     filter: grayscale(100%);
 }
 
-.col-5 img:hover{
+.col-5 img:hover {
     filter: grayscale(0);
->>>>>>> 462f960bc20df42928def70b3456c3c96f7c25d6
 }
 
-.footer {
+.mobile_topbar {
+    display: none;
+}
+
+#side_nav {
+    display: none;
+}
+
+
+@media screen and (max-width: 880px) {
+
+    .desktop_topbar {
+        display: none;
+    }
+
+    .desktop_logo {
+        display: none;
+    }
+
+    .mobile_topbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        position: fixed;
+        background: white;
+        z-index: 6;
+    }
+
+    .mobile_topbar img {
+        display: inline-block;
+        width: 70px;
+        height: 60px;
+    }
+
+    .mobile_logo {
+        margin: 12px 0px 18px 12px;
+    }
+
+    .mobile_topbar div {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        margin: 12px 18px 0px 12px;
+    }
+
+    header {
+        margin-top: 0px;
+    }
+
+    #open_button {
+        appearance: none;
+        border: none;
+        background-color: transparent;
+        font-weight: 600;
+        color: #FFA728;
+        font-size: 22px;
+        display: inline-block;
+        margin-right: 18px;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+    #side_nav {
+        position: fixed;
+        overflow-x: hidden;
+        width: 0;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        text-align: center;
+        background: #FFA728;
+        line-height: 78px;
+        padding-left: 0px;
+        height: auto;
+        transition: 0.5s ease-in-out;
+        z-index: 7;
+    }
+
+    .nav_open {
+        width: 100% !important;
+    }
+
+    #close_button {
+        appearance: none;
+        border: none;
+        background-color: transparent;
+        font-weight: 600;
+        color: white;
+        font-size: 22px;
+        display: block;
+        cursor: pointer;
+        margin: 35px 88px 0px 0px;
+        float: right;
+
+    }
+
+    #side_nav li p {
+        font-size: 28px;
+        color: white;
+        cursor: pointer;
+    }
+/*FOOTER*/    
+}
+footer {
     background: rgb(19, 19, 19);
     color: #8a8a8a;
     font-size: 14px;
@@ -308,11 +411,11 @@ transform: translateY(-10px);
 
 }
 
-.footer p{
+footer p{
     color: #a7a5a5;
 }
 
-.footer h2 {
+footer h2 {
     color: #fff;
     margin-bottom: 20px;
 
