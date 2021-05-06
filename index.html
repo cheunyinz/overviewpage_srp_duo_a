@@ -12,8 +12,9 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="desktop_topbar">
         <img src="./elements/logo.png" alt="urbanstore_logo">
+
         <div class="nav_wrapper">
             <ul>
                 <li>
@@ -31,7 +32,39 @@
             </ul>
             <img src="./elements/shopping_cart@2x.png" alt="shopping_cart">
         </div>
+
     </nav>
+
+    <div class="mobile_topbar">
+        <img class="mobile_logo" src="./elements/logo.png" alt="urbanstore_logo">
+        <div>
+            <button id="open_button">MENU</button>
+            <img src="./elements/shopping_cart@2x.png" alt="shopping_cart">
+        </div>
+
+
+    </div>
+    <ul id="side_nav">
+        <li>
+            <button id="close_button">CLOSE</button>
+        </li>
+        <li>
+            <p>Home</p>
+        </li>
+        <li>
+            <p>Products</p>
+        </li>
+        <li>
+            <p>About</p>
+        </li>
+        <li>
+            <p>Contact</p>
+        </li>
+        <li>
+            <p>Shopping cart</p>
+        </li>
+    </ul>
+
     <header>
         <section class="header_text">
             <h1>
@@ -328,6 +361,7 @@
             </article>
 
         </div>
+        <!--Exclusive articles sectie-->
 
         <article class="exclusive-article">
             <div>
@@ -341,7 +375,7 @@
 
             </div>
         </article>
-
+        <!--Reviews-->
         <div class="testimonial">
 
             <h2>
@@ -407,9 +441,9 @@
         </div>
 
 
-<!--brands-->
-<div class="brands">
-    <div class="small-container">
+        <!--brands-->
+        <div class="brands">
+            <div class="small-container">
 
                 <div class="col-5">
                     <img src="images/logo-balenciaga.png" alt="logo">
@@ -418,22 +452,21 @@
                     <img src="images/logo-misbhv.png" alt="logo">
                 </div>
                 <div class="col-5">
-                <img src="images/logo-mxdvs.png" alt="logo">
-                 </div>
-                <div class="col-5">
-                 <img src="images/logo-stussy.png" alt="logo">
-                 </div>
-                <div class="col-5">
-                    <img src="images/logo-northface.png" alt="logo"> 
+                    <img src="images/logo-mxdvs.png" alt="logo">
                 </div>
+                <div class="col-5">
+                    <img src="images/logo-stussy.png" alt="logo">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-northface.png" alt="logo">
+                </div>
+            </div>
+
         </div>
-
-</div>
-
-
 
     </main>
 
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
