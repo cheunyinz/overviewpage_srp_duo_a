@@ -76,7 +76,7 @@ header h1 {
     color: #ffa700;
     font-weight: bold;
     font-size: 68px;
-    width: 700px;
+    max-width: 700px;
 }
 
 header section p:first-of-type {
@@ -194,6 +194,24 @@ main h3 {
     width: fit-content;
     text-align: center;
     margin: auto auto 38px auto;
+}
+
+.see-more {
+    color: #FFA728;
+    background: white;
+    width: fit-content;
+    padding: 12px 48px 12px 48px;
+    font-size: 28px;
+    border: #FFA728 4px solid;
+    border-radius: 100px;
+    display: block;
+    margin: 25px auto 40px auto;
+    cursor: pointer;
+}
+
+.see-more:hover {
+    background: #FFA728;
+    color: white;
 }
 
 .testimonial .col-3 {
@@ -446,12 +464,38 @@ footer h2 {
 
 .footer-col-2 input {
     font-size: 15px;
+    padding: 8px 8px 8px 8px;
 }
 
+#submit_knop {
+    color:white ;
+    background: #FFA728;
+    width: fit-content;
+    display: inline-block;
+    padding: 8px 22px 8px 22px;
+    border-radius: 8px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.thanking_text {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 18px auto auto auto;
+}
+
+#email_text {
+    font-size: 15px;
+    color: #FFA728;
+    display: inline-block;
+    font-weight: 600;
+}
 
 #thank_you_text {
-    margin-top: 8px;
     font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .footer-col-2 img{
@@ -464,6 +508,12 @@ flex-basis: 12%;
 text-align: center;
 
 }
+
+.footer-col-3 li:hover , .footer-col-4 li:hover {
+    color: #FFA728;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
 }
