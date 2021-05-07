@@ -31,7 +31,7 @@
                     <p>Contact</p>
                 </li>
             </ul>
-            <img src="./elements/shopping_cart@2x.png" alt="shopping_cart">
+            <img id="shopping-cart" src="./elements/shopping_cart@2x.png" alt="shopping_cart">
 
         </div>
 
@@ -80,7 +80,30 @@
 
     <main>
 
-        <h1>New collection</h1>
+
+
+        <div class="heading-filter-wrapper">
+            <h1>New collection</h1>
+            <p id="nc-filter-button" class="filter-button">Filter</p>
+        </div>
+
+        <div id="nc-filter-box" class="filter-box">
+            <div class="filter">
+                <h3>Gender</h3>
+                <div class="filter-specific">
+                    <p>Male</p>
+                    <p>Female</p>
+                </div>
+            </div>
+            <div class="filter">
+                <h3>Sizes</h3>
+                <div class="filter-specific">
+                    <p>Small</p>
+                    <p>Medium</p>
+                    <p>Large</p>
+                </div>
+            </div>
+        </div>
 
         <div class="small-container">
             <article class="row">
@@ -97,10 +120,10 @@
                     </div>
                     <h2>Balenciage Tee</h2>
                     <h3>€110,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
-
 
 
             <article class="row">
@@ -115,6 +138,7 @@
                     </div>
                     <h2>Balenciage Hoodie</h2>
                     <h3>€106,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -132,6 +156,7 @@
                     </div>
                     <h2>Raven Tee</h2>
                     <h3>€45,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -150,6 +175,7 @@
                     </div>
                     <h2>Control crewneck</h2>
                     <h3>€80,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -168,6 +194,7 @@
                     </div>
                     <h2>Bike Jersey</h2>
                     <h3>€130,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -185,6 +212,7 @@
                     </div>
                     <h2>Dark Hoodie</h2>
                     <h3>€95,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -201,6 +229,7 @@
                     </div>
                     <h2>TD crewneck</h2>
                     <h3>€75,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -217,14 +246,35 @@
                     </div>
                     <h2>Summer Tee</h2>
                     <h3>€110,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
         </div>
 
         <p class="see-more">See more</p>
+        <div class="heading-filter-wrapper">
+            <h1>Our Favorites</h1>
+            <p id="of-filter-button" class="filter-button">Filter</p>
+        </div>
 
-        <h1>Our Favorites</h1>
+        <div id="of-filter-box" class="filter-box">
+            <div class="filter">
+                <h3>Gender</h3>
+                <div class="filter-specific">
+                    <p>Male</p>
+                    <p>Female</p>
+                </div>
+            </div>
+            <div class="filter">
+                <h3>Sizes</h3>
+                <div class="filter-specific">
+                    <p>Small</p>
+                    <p>Medium</p>
+                    <p>Large</p>
+                </div>
+            </div>
+        </div>
 
         <div class="small-container">
             <article class="row">
@@ -241,6 +291,7 @@
                     </div>
                     <h2>Mayhem Hoodie</h2>
                     <h3>€85,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -259,6 +310,7 @@
                     </div>
                     <h2>North Face Tee</h2>
                     <h3>€35,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -276,6 +328,7 @@
                     </div>
                     <h2>MISBHV Tee</h2>
                     <h3>€95,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -294,6 +347,7 @@
                     </div>
                     <h2>MISBHV 2001 Hoodie</h2>
                     <h3>€150,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -311,6 +365,7 @@
                     </div>
                     <h2>Stussy Hoodie</h2>
                     <h3>€80,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -328,6 +383,7 @@
                     </div>
                     <h2>Stussy Tee</h2>
                     <h3>€45,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -344,6 +400,7 @@
                     </div>
                     <h2>Stussy x Nike Crewneck</h2>
                     <h3>€75,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
                 </article>
             </article>
@@ -360,6 +417,7 @@
                     </div>
                     <h2>Stussy Tee</h2>
                     <h3>€35,-</h3>
+                    <button class="add-shopping-cart">Add to shopping cart</button>
 
 
                 </article>
@@ -470,7 +528,6 @@
                 </div>
             </div>
 
-        </div>
     </main>
     <!--footer-->
     <footer>
