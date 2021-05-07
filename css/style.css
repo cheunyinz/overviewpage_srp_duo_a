@@ -105,15 +105,34 @@ header section p:last-of-type:hover {
 
 /*MAIN*/
 
+.heading-filter-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 main h1 {
     text-align: center;
     font-family: helvetica;
     color: #FFA728;
-    border-bottom: #FFA728 solid 5px;
-    padding-bottom: 8px;
     width: fit-content;
-    display: block;
+    display: flex;
     margin: auto auto 18px auto;
+    position: relative
+
+}
+
+.filter-button {
+    color: #FFA728;
+    display: block;
+    border: none;
+    font-size: 22px;
+    border-bottom: #FFA728 solid 2px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    height: fit-content;
+    position: absolute;
+    margin-left: 1500px;
+    margin-right: 500px;
 
 }
 
@@ -239,10 +258,65 @@ main h3 {
     color: #777;
 }
 
+.add-shopping-cart {
+    background: #FFA728;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 28px;
+    border: #FFA728;
+    padding: 10px 15px 10px 15px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
 .testimonial .col-3 h2 {
     font-weight: 600;
     color: #555;
     font-size: 16px;
+}
+
+.filter_open {
+    height: 292px !important ; 
+}
+
+.filter-box {
+    position: absolute;
+    background: #FFA728;
+    color: white;
+    width: 100%;
+    height: 0px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.filter h3 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 28px;
+}
+
+.filter {
+    flex-direction: row;
+}
+
+.filter-specific {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.filter-specific p {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.filter-specific p:hover {
+    cursor: pointer;
+    columns: #d7d7d7;
 }
 
 .exclusive-article {
@@ -418,6 +492,10 @@ main h3 {
         font-size: 28px;
         color: white;
         cursor: pointer;
+    }
+
+    .filter-button {
+        margin-left: 900px;
     }
 /*FOOTER*/    
 }
